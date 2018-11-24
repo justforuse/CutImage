@@ -3,7 +3,8 @@
   margin: 0;
 }
 
-.header {
+.header,
+.footer {
   text-align: center;
   padding-top: 20px;
 }
@@ -79,4 +80,20 @@
   top: 0px;
   right: 0;
   transform: scale(1.01);
+}
+
+#save {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 4px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+#save:hover {
+  cursor: pointer;
+}
+#download {
+  display: none;
 }
